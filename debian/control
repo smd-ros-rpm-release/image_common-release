@@ -1,0 +1,19 @@
+Source: ros-groovy-image-common
+Section: misc
+Priority: extra
+Maintainer: Vincent Rabaud <vrabaud@willowgarage.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-groovy-common-msgs,ros-groovy-catkin,ros-groovy-ros,libtinyxml-dev,ros-groovy-pluginlib,ros-groovy-ros-comm
+Homepage: http://www.ros.org/wiki/image_common
+Standards-Version: 3.9.2
+
+Package: ros-groovy-image-common
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-groovy-common-msgs,ros-groovy-ros-comm,ros-groovy-pluginlib,libtinyxml-dev,ros-groovy-ros
+Description: Common code for working with images in ROS.
+ .
+ This stack contains the packages:
+ * polled_camera: polled_camera contains a service and C++ helper classes for implementing a polled camera driver node and requesting images from it. The package is currently for internal use as the API is still under development.
+ * camera_info_manager: This package provides a C++ interface for camera calibration information. It provides CameraInfo, and handles SetCameraInfo service requests, saving and restoring the camera calibration data.
+ * image_transport: image_transport should always be used to subscribe to and publish images. It provides transparent support for transporting images in low-bandwidth compressed formats. Examples (provided by separate plugin packages) include JPEG/PNG compression and Theora streaming video.
+ * camera_calibration_parsers: camera_calibration_parsers contains routines for reading and writing camera calibration parameters.
+
