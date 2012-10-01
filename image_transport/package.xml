@@ -1,6 +1,6 @@
 <package>
   <name>image_transport</name>
-  <version>1.9.8</version>
+  <version>1.9.9</version>
   <description brief="image_transport">
 
      image_transport should always be used to subscribe to and publish images. It provides transparent
@@ -24,10 +24,12 @@
   <build_depend>rosconsole</build_depend>
   <build_depend>roscpp</build_depend>
   <build_depend>roslib</build_depend>
+  <build_depend>sensor_msgs</build_depend>
 
   <run_depend>message_filters</run_depend>
   <run_depend>pluginlib</run_depend>
   <run_depend>rosconsole</run_depend>
   <run_depend>roscpp</run_depend>
   <run_depend>roslib</run_depend>
+  <run_depend>sensor_msgs</run_depend>
 </package>
