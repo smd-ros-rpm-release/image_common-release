@@ -2,12 +2,12 @@ Source: ros-groovy-image-transport
 Section: misc
 Priority: extra
 Maintainer: Vincent Rabaud <vrabaud@willowgarage.com>
-Build-Depends: debhelper (>= 7.0.50~), ros-groovy-message-filters,ros-groovy-roscpp,ros-groovy-catkin,ros-groovy-pluginlib,ros-groovy-roslib,ros-groovy-rosconsole
+Build-Depends: debhelper (>= 7.0.50~), ros-groovy-message-filters,ros-groovy-roscpp,ros-groovy-catkin,ros-groovy-pluginlib,ros-groovy-roslib,ros-groovy-rosconsole,ros-groovy-sensor-msgs
 Homepage: 
 Standards-Version: 3.9.2
 
 Package: ros-groovy-image-transport
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, ros-groovy-message-filters,ros-groovy-roscpp,ros-groovy-roslib,ros-groovy-pluginlib,ros-groovy-rosconsole
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-groovy-message-filters,ros-groovy-roscpp,ros-groovy-pluginlib,ros-groovy-roslib,ros-groovy-rosconsole,ros-groovy-sensor-msgs
 Description: image_transport should always be used to subscribe to and publish images. It provides transparent support for transporting images in low-bandwidth compressed formats. Examples (provided by separate plugin packages) include JPEG/PNG compression and Theora streaming video.
 
