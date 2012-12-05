@@ -1,0 +1,12 @@
+Source: ros-groovy-camera-calibration-parsers
+Section: misc
+Priority: extra
+Maintainer: Vincent Rabaud <vrabaud@willowgarage.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-groovy-catkin,libboost-all-dev,ros-groovy-sensor-msgs,yaml-cpp,ros-groovy-rosconsole
+Homepage: http://ros.org/wiki/camera_calibration_parsers
+Standards-Version: 3.9.2
+
+Package: ros-groovy-camera-calibration-parsers
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-groovy-sensor-msgs,yaml-cpp
+Description: camera_calibration_parsers contains routines for reading and writing camera calibration parameters.
