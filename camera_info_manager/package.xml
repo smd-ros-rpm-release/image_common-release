@@ -1,6 +1,6 @@
 <package>
   <name>camera_info_manager</name>
-  <version>1.9.22</version>
+  <version>1.10.0</version>
   <description>
 
      This package provides a C++ interface for camera calibration
@@ -12,7 +12,10 @@
   <author>Jack O'Quin</author>
   <maintainer email="vrabaud@willowgarage.com">Vincent Rabaud</maintainer>
   <license>BSD</license>
-  <url>http://ros.org/wiki/camera_info_manager</url>
+
+  <url type="website">http://ros.org/wiki/camera_info_manager</url>
+  <url type="bugtracker">https://github.com/ros-perception/image_common/issues</url>
+  <url type="repository">https://github.com/ros-perception/image_common</url>
 
   <buildtool_depend>catkin</buildtool_depend>
 
