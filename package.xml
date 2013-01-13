@@ -1,13 +1,16 @@
 <package>
   <name>camera_calibration_parsers</name>
-  <version>1.9.22</version>
+  <version>1.10.0</version>
   <description>
      camera_calibration_parsers contains routines for reading and writing camera calibration parameters.
   </description>
   <author>Patrick Mihelich</author>
   <maintainer email="vrabaud@willowgarage.com">Vincent Rabaud</maintainer>
   <license>BSD</license>
-  <url>http://ros.org/wiki/camera_calibration_parsers</url>
+
+  <url type="website">http://ros.org/wiki/camera_calibration_parsers</url>
+  <url type="bugtracker">https://github.com/ros-perception/image_common/issues</url>
+  <url type="repository">https://github.com/ros-perception/image_common</url>
 
   <buildtool_depend>catkin</buildtool_depend>
   
