@@ -1,0 +1,12 @@
+Source: ros-groovy-polled-camera
+Section: misc
+Priority: extra
+Maintainer: "Jack O'Quin <jack.oquin@gmail.com>, Vincent Rabaud <vincent.rabaud@gmail.com>"
+Build-Depends: debhelper (>= 7.0.50~), ros-groovy-catkin, ros-groovy-image-transport, ros-groovy-message-generation, ros-groovy-rosconsole, ros-groovy-roscpp, ros-groovy-sensor-msgs, ros-groovy-std-msgs
+Homepage: http://ros.org/wiki/polled_camera
+Standards-Version: 3.9.2
+
+Package: ros-groovy-polled-camera
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-groovy-image-transport, ros-groovy-rosconsole, ros-groovy-roscpp, ros-groovy-sensor-msgs, ros-groovy-std-msgs
+Description: polled_camera contains a service and C++ helper classes for implementing a polled camera driver node and requesting images from it. The package is currently for internal use as the API is still under development.
