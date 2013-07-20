@@ -1,7 +1,7 @@
 <package>
   <name>camera_info_manager</name>
-  <version>1.9.15</version>
-  <description brief="Camera calibration information manager">
+  <version>1.10.4</version>
+  <description>
 
      This package provides a C++ interface for camera calibration
      information.  It provides CameraInfo, and handles SetCameraInfo
@@ -10,12 +10,17 @@
 
   </description>
   <author>Jack O'Quin</author>
-  <maintainer email="vrabaud@willowgarage.com">Vincent Rabaud</maintainer>
+  <maintainer email="jack.oquin@gmail.com">Jack O'Quin</maintainer>
+  <maintainer email="vincent.rabaud@gmail.com">Vincent Rabaud</maintainer>
   <license>BSD</license>
-  <url>http://ros.org/wiki/camera_info_manager</url>
+
+  <url type="website">http://ros.org/wiki/camera_info_manager</url>
+  <url type="bugtracker">https://github.com/ros-perception/image_common/issues</url>
+  <url type="repository">https://github.com/ros-perception/image_common</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
 
   <build_depend>boost</build_depend>
-  <build_depend>catkin</build_depend>
   <build_depend>camera_calibration_parsers</build_depend>
   <build_depend>image_transport</build_depend>
   <build_depend>roscpp</build_depend>
@@ -28,8 +33,8 @@
   <run_depend>image_transport</run_depend>
   <run_depend>roscpp</run_depend>
   <run_depend>roslib</run_depend>
-  <run_depend>rostest</run_depend>
   <run_depend>sensor_msgs</run_depend>
 
-  <test_depend>rostest</test_depend>
+  <test_depend>gtest</test_depend>
+
 </package>
