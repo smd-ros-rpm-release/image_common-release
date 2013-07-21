@@ -1,6 +1,6 @@
 <package>
   <name>image_transport</name>
-  <version>1.10.3</version>
+  <version>1.11.0</version>
   <description>
 
      image_transport should always be used to subscribe to and publish images. It provides transparent
@@ -9,7 +9,8 @@
 
   </description>
   <author>Patrick Mihelich</author>
-  <maintainer email="vrabaud@willowgarage.com">Vincent Rabaud</maintainer>
+  <maintainer email="jack.oquin@gmail.com">Jack O'Quin</maintainer>
+  <maintainer email="vincent.rabaud@gmail.com">Vincent Rabaud</maintainer>
   <license>BSD</license>
 
   <url type="website">http://ros.org/wiki/image_transport</url>
