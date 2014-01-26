@@ -1,0 +1,7 @@
+ros-hydro-camera-calibration-parsers (1.11.1-0precise) precise; urgency=high
+
+  * fix YAML CPP 0.5.x compatibility
+
+ -- Jack O'Quin <jack.oquin@gmail.com>  Sun, 26 Jan 2014 02:32:06 +0100
+
+
