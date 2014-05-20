@@ -1,6 +1,6 @@
 <package>
   <name>camera_calibration_parsers</name>
-  <version>1.11.1</version>
+  <version>1.11.3</version>
   <description>
      camera_calibration_parsers contains routines for reading and writing camera calibration parameters.
   </description>
@@ -16,6 +16,7 @@
   <buildtool_depend>catkin</buildtool_depend>
   
   <build_depend>boost</build_depend>
+  <build_depend>pkg-config</build_depend>
   <build_depend>rosconsole</build_depend>
   <build_depend>sensor_msgs</build_depend>
   <build_depend>yaml-cpp</build_depend>
