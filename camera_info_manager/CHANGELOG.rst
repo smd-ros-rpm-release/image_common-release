@@ -2,6 +2,9 @@
 Changelog for package camera_info_manager
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.11.4 (2014-09-21)
+-------------------
+
 1.11.3 (2014-05-19)
 -------------------
 * Add public member function to manually set camera info (`#19
